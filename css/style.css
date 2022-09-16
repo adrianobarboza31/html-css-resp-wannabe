@@ -127,7 +127,14 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px){
+    .container{
+        width:100%;
+    }
+    
+}
+
+ @media screen and (max-width: 480px) {
     .row{
         display: flex;
         flex-wrap: wrap;
@@ -142,5 +149,11 @@ img {
     }
     .why-us{
         background-color: #222222;
+    }
+   
+}
+@media screen and (min-width:768px) and (max-width:1160px){
+    .container{
+        width: 100%;
     }
 }
